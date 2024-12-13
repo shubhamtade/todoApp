@@ -12,7 +12,7 @@ const App = () => {
     fetch("https://dummyjson.com/todos")
       .then((res) => res.json())
       .then((data) => {
-        setTodo(data.todos); 
+        setTodo(data.todos);
         // console.log(todo);
 
         setTimeout(() => {
